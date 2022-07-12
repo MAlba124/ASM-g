@@ -39,7 +39,7 @@ _start:
     ;; Compare user input with random character
     mov al, [rand_buf]
     cmp al, [user_input]
-    je _correct if              ; they are equal print correct 
+    je _correct                 ; if they are equal print correct 
 
     mov rax, 0x1                ; write
     mov rdi, 0x1                ; stdout
