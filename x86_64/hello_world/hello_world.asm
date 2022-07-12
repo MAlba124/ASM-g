@@ -2,7 +2,7 @@
 
     section .data
 hello_world:
-    db "Hello World", 0xA  ; "Hello World\n"
+    db "Hello World", 0x0A  ; "Hello World\n"
 
     section .text
 _start:

@@ -1,7 +1,7 @@
     global _start
 
     section .data
-smilie:  db ":)", 0xA
+smilie:  db ":)", 0x0A
 
     section .text
 _start: 
